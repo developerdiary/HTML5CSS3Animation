@@ -1,0 +1,25 @@
+.banner{
+	width: 1000px;
+	height: 200px;
+	margin:0px auto;
+	border: 1px solid #639;
+	overflow:hidden;
+}
+
+.bgImage{
+	position: relative;
+	background: url('bg.jpg') repeat-x;
+	width: 1500px;
+	height: 200px;
+	-webkit-animation: bgAnimate linear 12s  infinite;
+	-o-animation: bgAnimate linear 12s  infinite;
+	animation: bgAnimate linear 12s  infinite;
+}
+
+@keyframes bgAnimate{
+	from{
+		right: 0px;
+	}to{
+		right: 320px;
+	}
+}
